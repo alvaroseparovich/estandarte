@@ -1,0 +1,99 @@
+ /*
+ Theme Name:   O Estandarte de Cristo
+ Theme URI:    http://estandartedecristo.com.br/
+ Description:  Thema customizado para o site O Estandarte de Cristo
+ Author:       Alvaro Sep
+ Author URI:   https://github.com/alvaroseparovich/
+ Template:     magazine-7
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, clean, responsive-layout, woocommerce
+ Text Domain:  o-estandarte-de-cristo
+*/
+/*=======================*/
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body .main-navigation a,
+body .font-family-1,
+body .site-description,
+body .trending-posts-line,
+body .widget-title,
+body .em-widget-subtitle,
+body .grid-item-metadata .item-metadata,
+body .af-navcontrols .slide-count,
+body .figure-categories .cat-links,
+body .nav-links a {
+  font-family: 'Fira Sans Condensed'; }
+body .figure-categories .cat-links a.magazine-7-categories {
+  background-color: #0be6af; }
+body .figure-categories .cat-links a.category-color-2 {
+  background-color: #00bcd4; }
+body .figure-categories .cat-links a.category-color-3 {
+  background-color: #ff5722; }
+body .top-masthead {
+  background: #000; }
+body .secondary-color,
+body button,
+body input[type="button"],
+body input[type="reset"],
+body input[type="submit"],
+body .site-content .search-form .search-submit,
+body .site-footer .search-form .search-submit,
+body .tagcloud a:hover {
+  background: #0be6af; }
+body.woocommerce #content input.button, body.woocommerce #respond input#submit, body.woocommerce a.button,
+body .widget .woocommerce a.button, body.woocommerce button.button, body.woocommerce input.button, body.woocommerce-page #content input.button, body.woocommerce-page #respond input#submit, body.woocommerce-page a.button, body.woocommerce-page button.button, body.woocommerce-page input.button {
+  background: #0be6af; }
+body a:hover,
+body a:focus,
+body a:active,
+body .figure-categories-2 .cat-links a {
+  color: #0be6af; }
+body .af-main-banner .slider-figcaption .slide-title {
+  font-size: 34px; }
+body #primary .af-tabs.nav-tabs > li > a, body.archive .site-content .header-title-wrapper .page-title, body.search-results .site-content .header-title-wrapper .page-title,
+body #primary .widget-title span,
+body header.entry-header h1.entry-title {
+  font-size: 36px; }
+body .article-title, body .site-branding .site-title,
+body .main-navigation .menu ul li a,
+body .slider-figcaption .slide-title {
+  letter-spacing: 0px;
+  line-height: 1.2; }
+body h1,
+body h2,
+body h2 span,
+body h3,
+body h4,
+body h5,
+body h6 {
+  line-height: 1.2; }
+
+.figure-categories-bg .em-post-format:before {
+  background: #0be6af; }
+
+.em-post-format {
+  color: #0be6af; }
+
+.masthead-banner {
+  padding: 5px 0; }
+
+#estandarte-home-section > li {
+  list-style: none; }
+#estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row {
+  display: flex;
+  flex-wrap: wrap; }
+  #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row div[class*="col-"], #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row li[class*="col-"], #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row article[class*="col-"], #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row figure[class*="col-"] {
+    width: 49%; }
+
+.woocommerce ul.products li.product, .woocommerce ul.products.columns-3 li.product {
+  background: transparent; }
+  .woocommerce ul.products li.product a img, .woocommerce ul.products.columns-3 li.product a img {
+    box-shadow: 0px 3px 12px #777; }
+
+/*# sourceMappingURL=style.css.map */

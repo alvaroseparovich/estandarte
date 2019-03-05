@@ -1,0 +1,15 @@
+#estandarte-home-section{
+   & > li{
+    list-style: none;
+    }
+    
+    .widget.magazine_7_double_col_categorised_posts{
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            div[class*="col-"], li[class*="col-"], article[class*="col-"], figure[class*="col-"]{
+                width: 49%;
+            }
+        }
+    }
+}

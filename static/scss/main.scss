@@ -1,0 +1,110 @@
+
+body{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .main-navigation a,
+    .font-family-1,
+    .site-description,
+    .trending-posts-line,
+    .widget-title,
+    .em-widget-subtitle,
+    .grid-item-metadata .item-metadata,
+    .af-navcontrols .slide-count,
+    .figure-categories .cat-links,
+    .nav-links a {
+    font-family: 'Fira Sans Condensed';
+    }
+    
+    .figure-categories .cat-links a.magazine-7-categories {    
+        background-color: #0be6af;    
+    } 
+    
+    .figure-categories .cat-links a.category-color-2 {
+        background-color: #00bcd4;
+    }
+    
+    .figure-categories .cat-links a.category-color-3 {
+        background-color: #ff5722;
+    }
+        
+    .top-masthead {
+        background: #000;
+    }
+    
+    .secondary-color,
+    button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    .site-content .search-form .search-submit,
+    .site-footer .search-form .search-submit,
+    .tagcloud a:hover{
+    background: #0be6af;
+    }
+    
+    
+    &.woocommerce #content input.button, 
+    &.woocommerce #respond input#submit,
+    &.woocommerce a.button, 
+    .widget .woocommerce a.button, 
+    &.woocommerce button.button, 
+    &.woocommerce input.button, 
+    &.woocommerce-page #content input.button, 
+    &.woocommerce-page #respond input#submit, 
+    &.woocommerce-page a.button, 
+    &.woocommerce-page button.button, 
+    &.woocommerce-page input.button
+    {
+    background: #0be6af;
+    }
+    
+    a:hover,
+    a:focus,
+    a:active,
+    .figure-categories-2 .cat-links a
+    {
+    color: #0be6af;
+    }
+    
+    .af-main-banner .slider-figcaption .slide-title {
+            font-size: 34px;
+    }
+    
+    #primary .af-tabs.nav-tabs > li > a,
+    &.archive .site-content .header-title-wrapper .page-title,
+    &.search-results .site-content .header-title-wrapper .page-title,
+    #primary .widget-title span,
+    header.entry-header h1.entry-title{
+    font-size: 36px;
+    }
+    
+    .article-title, .site-branding .site-title, 
+    .main-navigation .menu ul li a, 
+    .slider-figcaption .slide-title {
+    letter-spacing: 0px;
+    line-height: 1.2;
+    }
+    
+    h1,
+    h2,
+    h2 span,
+    h3,
+    h4,
+    h5,
+    h6 {
+    line-height: 1.2;
+    }
+    
+}
+
+
+.figure-categories-bg .em-post-format:before{
+background: #0be6af; 
+}
+.em-post-format{
+color: #0be6af; 
+}

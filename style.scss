@@ -1,0 +1,21 @@
+@charset "UTF-8";
+ /*
+ Theme Name:   O Estandarte de Cristo
+ Theme URI:    http://estandartedecristo.com.br/
+ Description:  Thema customizado para o site O Estandarte de Cristo
+ Author:       Alvaro Sep
+ Author URI:   https://github.com/alvaroseparovich/
+ Template:     magazine-7
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, clean, responsive-layout, woocommerce
+ Text Domain:  o-estandarte-de-cristo
+*/
+/*=======================*/
+
+@import './static/scss/main.scss';
+@import './static/scss/header.scss';
+@import './static/scss/post-loop.scss';
+@import './static/scss/home-page.scss';
+@import './static/scss/woocommerce/product-loop.scss';

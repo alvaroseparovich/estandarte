@@ -1,3 +1,4 @@
+$first-color: #9c703e;
 
 body{
     h1,
@@ -20,7 +21,7 @@ body{
     }
     
     .figure-categories .cat-links a.magazine-7-categories {    
-        background-color: #0be6af;    
+        background-color: $first-color;    
     } 
     
     .figure-categories .cat-links a.category-color-2 {
@@ -43,7 +44,8 @@ body{
     .site-content .search-form .search-submit,
     .site-footer .search-form .search-submit,
     .tagcloud a:hover{
-    background: #0be6af;
+    background: $first-color;
+
     }
     
     
@@ -59,7 +61,8 @@ body{
     &.woocommerce-page button.button, 
     &.woocommerce-page input.button
     {
-    background: #0be6af;
+    background: $first-color;
+    border-radius: 0;
     }
     
     a:hover,
@@ -67,7 +70,7 @@ body{
     a:active,
     .figure-categories-2 .cat-links a
     {
-    color: #0be6af;
+    color: $first-color;
     }
     
     .af-main-banner .slider-figcaption .slide-title {
@@ -103,8 +106,11 @@ body{
 
 
 .figure-categories-bg .em-post-format:before{
-background: #0be6af; 
+background: $first-color; 
 }
 .em-post-format{
-color: #0be6af; 
+color: $first-color; 
+}
+.container{
+    width: 1400px;
 }

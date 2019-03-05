@@ -1,11 +1,35 @@
-.woocommerce {
+.woocommerce{
     ul.products, ul.products.columns-3{
-        li.product{
-    
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        li.product{    
+            width: 19.9%;
+            margin: 0 !important;
+            padding: 0 10px 30px !important;
             background: rgba(0, 0, 0, 0);
     
-            a img{
-                box-shadow: 0px 3px 12px #777;
+            .img-box{
+                min-height: 259px;
+                img{
+                    box-shadow: 0px 3px 12px #777;
+                }
+            } 
+            h2.woocommerce-loop-product__title,.price,.button{
+                margin: 0;
+                text-align: center;
+                
+            }
+            .price{
+                color: dimgrey
+            }
+            a.button{
+                display: block;
+                width: fit-content;
+                margin: auto;
+            }
+            .woocommerce-loop-product__title{
+                min-height: 70px;
             }
         }
     }

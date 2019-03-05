@@ -30,7 +30,7 @@ body .figure-categories .cat-links,
 body .nav-links a {
   font-family: 'Fira Sans Condensed'; }
 body .figure-categories .cat-links a.magazine-7-categories {
-  background-color: #0be6af; }
+  background-color: #9c703e; }
 body .figure-categories .cat-links a.category-color-2 {
   background-color: #00bcd4; }
 body .figure-categories .cat-links a.category-color-3 {
@@ -45,15 +45,16 @@ body input[type="submit"],
 body .site-content .search-form .search-submit,
 body .site-footer .search-form .search-submit,
 body .tagcloud a:hover {
-  background: #0be6af; }
+  background: #9c703e; }
 body.woocommerce #content input.button, body.woocommerce #respond input#submit, body.woocommerce a.button,
 body .widget .woocommerce a.button, body.woocommerce button.button, body.woocommerce input.button, body.woocommerce-page #content input.button, body.woocommerce-page #respond input#submit, body.woocommerce-page a.button, body.woocommerce-page button.button, body.woocommerce-page input.button {
-  background: #0be6af; }
+  background: #9c703e;
+  border-radius: 0; }
 body a:hover,
 body a:focus,
 body a:active,
 body .figure-categories-2 .cat-links a {
-  color: #0be6af; }
+  color: #9c703e; }
 body .af-main-banner .slider-figcaption .slide-title {
   font-size: 34px; }
 body #primary .af-tabs.nav-tabs > li > a, body.archive .site-content .header-title-wrapper .page-title, body.search-results .site-content .header-title-wrapper .page-title,
@@ -75,10 +76,13 @@ body h6 {
   line-height: 1.2; }
 
 .figure-categories-bg .em-post-format:before {
-  background: #0be6af; }
+  background: #9c703e; }
 
 .em-post-format {
-  color: #0be6af; }
+  color: #9c703e; }
+
+.container {
+  width: 1400px; }
 
 .masthead-banner {
   padding: 5px 0; }
@@ -91,9 +95,40 @@ body h6 {
   #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row div[class*="col-"], #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row li[class*="col-"], #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row article[class*="col-"], #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row figure[class*="col-"] {
     width: 49%; }
 
-.woocommerce ul.products li.product, .woocommerce ul.products.columns-3 li.product {
-  background: transparent; }
-  .woocommerce ul.products li.product a img, .woocommerce ul.products.columns-3 li.product a img {
-    box-shadow: 0px 3px 12px #777; }
+.woocommerce ul.products, .woocommerce ul.products.columns-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .woocommerce ul.products li.product, .woocommerce ul.products.columns-3 li.product {
+    width: 19.9%;
+    margin: 0 !important;
+    padding: 0 10px 30px !important;
+    background: transparent; }
+    .woocommerce ul.products li.product .img-box, .woocommerce ul.products.columns-3 li.product .img-box {
+      min-height: 259px; }
+      .woocommerce ul.products li.product .img-box img, .woocommerce ul.products.columns-3 li.product .img-box img {
+        box-shadow: 0px 3px 12px #777; }
+    .woocommerce ul.products li.product h2.woocommerce-loop-product__title, .woocommerce ul.products li.product .price, .woocommerce ul.products li.product .button, .woocommerce ul.products.columns-3 li.product h2.woocommerce-loop-product__title, .woocommerce ul.products.columns-3 li.product .price, .woocommerce ul.products.columns-3 li.product .button {
+      margin: 0;
+      text-align: center; }
+    .woocommerce ul.products li.product .price, .woocommerce ul.products.columns-3 li.product .price {
+      color: dimgrey; }
+    .woocommerce ul.products li.product a.button, .woocommerce ul.products.columns-3 li.product a.button {
+      display: block;
+      width: fit-content;
+      margin: auto; }
+    .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products.columns-3 li.product .woocommerce-loop-product__title {
+      min-height: 70px; }
+
+.woocommerce #content div.product .magazine-7-product-summary-wrap, .woocommerce #content div.product .woocommerce-tabs .tabs, .woocommerce #content div.product .wc-tab, .woocommerce div.product .magazine-7-product-summary-wrap, .woocommerce div.product .woocommerce-tabs .tabs, .woocommerce div.product .wc-tab {
+  background: #00000000;
+  border: none; }
+.woocommerce #content div.product div.images, .woocommerce div.product div.images {
+  width: 30%; }
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary {
+  width: 69%; }
+  .woocommerce #content div.product div.summary h1, .woocommerce div.product div.summary h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: lighter; }
 
 /*# sourceMappingURL=style.css.map */

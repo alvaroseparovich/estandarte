@@ -1,0 +1,22 @@
+.woocommerce #content,.woocommerce {
+    
+    div.product{
+
+        .magazine-7-product-summary-wrap, .woocommerce-tabs .tabs, .wc-tab {
+            background: #00000000;
+            border: none;
+        }
+
+        div.images{
+            width: 30%;    
+        }
+        div.summary {
+            width: 69%;
+            
+            h1 {
+                font-family: 'EB Garamond', serif;
+                font-weight: lighter;
+            }
+        }
+    } 
+}

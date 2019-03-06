@@ -19,11 +19,26 @@ remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_show_prod
 remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );
 
 
-/**
- * 
- * Functions in the Product Page
- * ============================
- */
+function createElement($echo = 1 , $element="div", $class = "", $id="", $content=""){
 
-remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
-add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 6 );
+    if(strpos($element,'/')){
+        $elementCreated = "</{$element}>";
+
+        if($echo){
+            echo $elementCreated;
+        }else{
+            return $elementCreated;
+        }
+    }
+    else{
+        $elementCreated = "<{$element} id='{$id}' class='{$class}'> {$content}";
+
+        if($echo){
+            echo $elementCreated;
+        }else{
+            return $elementCreated;
+        }
+    }
+}
+
+require get_stylesheet_directory().'/woocommerce-functions/single-product-functions.php';

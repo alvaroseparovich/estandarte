@@ -8,15 +8,59 @@
         }
 
         div.images{
-            width: 30%;    
+            width: 100%;  
+            float: none;  
         }
         div.summary {
-            width: 69%;
+            width: 100%;
             
-            h1 {
+            h1.product_title {
                 font-family: 'EB Garamond', serif;
                 font-weight: lighter;
+                font-size: 2.5em;
+                margin-bottom: 0;
+                padding-bottom: 0;
             }
+
+            p.price, span.price, .stock{
+                color: black;
+            }
+            p.price, .o_estandarte_cart{
+                width: 49.5%;
+                display: inline-block;
+                vertical-align: top;
+            }
+            .stock.in-stock,form.cart{
+                margin-bottom: 0;
+            }
+            .stock.in-stock{
+                float: left;
+            }
+            form.cart{
+                float: right;
+            }
+            .price{
+                font-size: 2em;
+            }
+            
         }
     } 
+}
+
+.full-product-page #primary{
+    width: 100%;
+}
+
+.o_estandarte_product_img, 
+.o_estandarte_product_under_img{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.o_estandarte_product_info, 
+.o_estandarte_product_under_info{
+    width: 67.5%;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
 }

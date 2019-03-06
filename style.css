@@ -82,7 +82,8 @@ body h6 {
   color: #9c703e; }
 
 .container {
-  width: 1400px; }
+  width: 1270px;
+  max-width: 100%; }
 
 .masthead-banner {
   padding: 5px 0; }
@@ -124,11 +125,45 @@ body h6 {
   background: #00000000;
   border: none; }
 .woocommerce #content div.product div.images, .woocommerce div.product div.images {
-  width: 30%; }
+  width: 100%;
+  float: none; }
 .woocommerce #content div.product div.summary, .woocommerce div.product div.summary {
-  width: 69%; }
-  .woocommerce #content div.product div.summary h1, .woocommerce div.product div.summary h1 {
+  width: 100%; }
+  .woocommerce #content div.product div.summary h1.product_title, .woocommerce div.product div.summary h1.product_title {
     font-family: 'EB Garamond', serif;
-    font-weight: lighter; }
+    font-weight: lighter;
+    font-size: 2.5em;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  .woocommerce #content div.product div.summary p.price, .woocommerce #content div.product div.summary span.price, .woocommerce #content div.product div.summary .stock, .woocommerce div.product div.summary p.price, .woocommerce div.product div.summary span.price, .woocommerce div.product div.summary .stock {
+    color: black; }
+  .woocommerce #content div.product div.summary p.price, .woocommerce #content div.product div.summary .o_estandarte_cart, .woocommerce div.product div.summary p.price, .woocommerce div.product div.summary .o_estandarte_cart {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: top; }
+  .woocommerce #content div.product div.summary .stock.in-stock, .woocommerce #content div.product div.summary form.cart, .woocommerce div.product div.summary .stock.in-stock, .woocommerce div.product div.summary form.cart {
+    margin-bottom: 0; }
+  .woocommerce #content div.product div.summary .stock.in-stock, .woocommerce div.product div.summary .stock.in-stock {
+    float: left; }
+  .woocommerce #content div.product div.summary form.cart, .woocommerce div.product div.summary form.cart {
+    float: right; }
+  .woocommerce #content div.product div.summary .price, .woocommerce div.product div.summary .price {
+    font-size: 2em; }
+
+.full-product-page #primary {
+  width: 100%; }
+
+.o_estandarte_product_img,
+.o_estandarte_product_under_img {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top; }
+
+.o_estandarte_product_info,
+.o_estandarte_product_under_info {
+  width: 67.5%;
+  display: inline-block;
+  vertical-align: top;
+  float: right; }
 
 /*# sourceMappingURL=style.css.map */

@@ -201,6 +201,16 @@ p.site-description {
   #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row div[class*="col-"], #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row li[class*="col-"], #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row article[class*="col-"], #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row figure[class*="col-"] {
     width: 49%; }
 
+@media (max-width: 1150px) {
+  body .af-main-banner .slider-figcaption .title-heading .slide-title {
+    font-size: 17px; } }
+body .af-main-banner .slider-figcaption .slide-title {
+  font-size: 26px;
+  margin: 0; }
+
+.slider-figcaption {
+  padding: 20px 10px; }
+
 .woocommerce ul.products, .woocommerce ul.products.columns-3 {
   display: flex;
   flex-wrap: wrap;

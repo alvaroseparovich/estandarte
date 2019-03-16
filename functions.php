@@ -23,5 +23,6 @@ add_action( 'wp_enqueue_scripts', 'featured_news_enqueue_child_styles' );
 require get_stylesheet_directory().'/widgets-and-sidebars/index.php';
 
 require get_stylesheet_directory().'/woocommerce-functions/index.php';
+require get_stylesheet_directory().'/inc/functions-header.php';
 
 

@@ -1,3 +1,199 @@
+$header-main-color: #222;
+$header-color-text: white;
+
+
+
+//=====================================================================
+//--------------------------- First Header ----------------------------
+//=====================================================================
 .masthead-banner {
     padding: 5px 0;
+
+    .row .col-md-12, #primary-menu {
+        display: flex;
+        list-style: none;
+    }
+    .toggle-menu{
+        display: none;
+        height: 50px;
+        .ham,.ham::before , .ham::after{
+            background: $header-color-text;
+        }
+        .ham.exit{
+            background: $header-main-color;
+        }
+    }
+    .cart-search{
+        margin-right: 10px;
+    }
+    #primary-menu{
+        width: fit-content;
+        li{
+            padding: 20px 15px;
+            a, a:visited {
+                color: $header-color-text;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+        }
+    }
+    .menu-left, .menu-right{
+        margin-top:15px; 
+    }
+    .menu-left{
+        width: 10%;
+        .offcanvas{
+            padding: 20px 15px;
+        }
+        .mbtn-mid, .mbtn-top, .mbtn-bot{
+            background: $header-color-text;
+        }
+    }
+    .af-cart-icon-and-count i, .icon-search{
+        color:$header-color-text;
+    }
 }
+
+//--------- Second Menu---------
+.main-navigation .menu > ul , .main-navigation{
+    display: none;
+}
+
+@media (max-width: 1180px){
+    .masthead-banner{
+        .other-inf{
+            display: none;
+        }
+        .menu-right{
+            width: 71%;
+            .main-menu{
+                padding-left: 12%;
+            }
+        }
+        
+    }
+} 
+    
+@media (max-width: 991px){
+    
+    .masthead-banner{
+        .menu-right{
+            width: 74%;
+            .toggle-menu{
+                //display: block;
+                //width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 850px){
+    .masthead-banner .menu-right {
+        width: 10%;
+        .main-menu{
+            display: none;
+        }
+        .ham{
+            margin-left: 0;
+        }
+    }
+    .main-navigation .menu > ul {
+        display: none;
+    }
+    .main-navigation {
+        display: block;
+    }
+}
+
+@media (max-width: 769px){
+    .masthead-banner{
+        .other-inf{
+            margin-left: 12px;
+            display: none;
+        }
+        .cart-search{
+            margin-top: 17px;
+        }
+        .menu-right{
+            .toggle-menu{
+                width: 50%;
+            }
+        }
+    } 
+}
+
+@media only screen and (max-width: 768px){
+    .ham {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+p.site-description {
+    font-size: 0.6em;
+    color:white;
+}
+.site-branding {
+    display: flex;
+    
+    .other-inf {
+        .site-title {
+            font-size: 33px;
+            margin-top: 0.7em;
+            a{
+                color:white;
+            }
+        }
+    }
+}
+.custom-logo-link {
+    height: 100%;
+    float: left;
+}
+.site-header{
+    background: $header-main-color;
+    .custom-logo{
+        width: 100px;
+    }
+}
+
+
+
+
+
+//----------------------------------------
+.archive{
+    
+    #main .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article.status-publish {
+        width: 33.2%;
+    }
+
+}
+.align-content-left .data-bg-categorised, .align-content-right .data-bg-categorised, .default-content-layout .af-main-banner-latest-posts .data-bg-categorised {
+    height: 137px;
+}
+
+
+//=====================================================================
+//-------------------------- Second header ----------------------------
+//=====================================================================
+
+
+@media (max-width: 850px){
+    .site-branding {
+        width: fit-content;
+        margin: auto;
+    }
+}
+@media (max-width: 460px){
+    .other-inf{
+        display: none;
+    }
+}
+
+
+

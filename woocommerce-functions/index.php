@@ -41,4 +41,32 @@ function createElement($echo = 1 , $element="div", $class = "", $id="", $content
     }
 }
 
+add_filter( 'loop_shop_per_page', 'new_loop_shop_per_page', 20 );
+
+function new_loop_shop_per_page( $cols ) {
+  // $cols contains the current number of products per page based on the value stored on Options -> Reading
+  // Return the number of products you wanna show per page.
+  $cols = 15;
+  return $cols;
+}
+
+
+
+
+if ( ! function_exists( 'woocommerce_template_loop_product_title' ) ) {
+    /**
+    * Show the product H3 title in the product loop.
+    */
+    function woocommerce_template_loop_product_title() {
+    echo '<h3 class="woocommerce-loop-product__title">' . get_the_title() . '</h3>';
+    if (wp_get_post_terms(get_post()->ID, "pa_autor") and ! is_wp_error( wp_get_post_terms(get_post()->ID, "pa_autor") ) ){
+        echo '<h5 class="author">'. wp_get_post_terms(get_post()->ID, "pa_autor")[0]->name .'</h5>';  
+    }else{
+        echo "<h5 class='author'>-</h5>";
+    }
+    //var_dump(wp_get_post_terms(get_post()->ID, "pa_autor"));
+    }
+}
+
+
 require get_stylesheet_directory().'/woocommerce-functions/single-product-functions.php';

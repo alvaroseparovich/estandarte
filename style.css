@@ -245,6 +245,9 @@ body .af-main-banner .slider-figcaption .slide-title {
 
 .full-width-content .magazine-7-products-list ul .row .product {
   width: 13.9%; }
+  @media (min-width: 1600px) {
+    .full-width-content .magazine-7-products-list ul .row .product div div.aft-product-list-thumb {
+      min-height: 275px; } }
   @media (max-width: 1600px) {
     .full-width-content .magazine-7-products-list ul .row .product {
       padding: 0; }
@@ -270,12 +273,27 @@ body .af-main-banner .slider-figcaption .slide-title {
       width: 24.9%; }
       .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
         min-height: 33vw; } }
+  @media (max-width: 540px) {
+    .full-width-content .magazine-7-products-list ul .row .product {
+      padding: 0;
+      width: 33.2%; }
+      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
+        min-height: 48vw; } }
+  @media (max-width: 340px) {
+    .full-width-content .magazine-7-products-list ul .row .product {
+      padding: 0;
+      width: 49.9%; }
+      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
+        min-height: 67vw; } }
   .full-width-content .magazine-7-products-list ul .row .product .aft-product-list-thumb {
     min-height: 260px; }
 
 .full-width-content .magazine-7-products-list .product:last-child {
   display: none; }
 
+@media (max-width: 768px) {
+  #content .magazine_7_products_list_widget {
+    padding-left: 10px; } }
 body .magazine-7-products-list ul .row {
   display: flex;
   flex-wrap: wrap;

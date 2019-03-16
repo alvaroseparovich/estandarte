@@ -40,7 +40,17 @@
         }
     }
 }
+
+
+//=============================================================================
+//========================== widget with Full Content =========================
+//=============================================================================
 .full-width-content .magazine-7-products-list ul .row .product{
+    @media (min-width: 1600px){
+        div div.aft-product-list-thumb {
+            min-height: 275px;
+        }
+    }
     @media (max-width: 1600px){
         padding: 0;
         div.aft-product-list-thumb {
@@ -69,7 +79,22 @@
             min-height: 33vw;
         }
     }
+    @media (max-width: 540px){
+        padding: 0;
+        width: 33.2%;
+        div.aft-product-list-thumb {
+            min-height: 48vw;
+        }
+    }
+    @media (max-width: 340px){
+        padding: 0;
+        width: 49.9%;
+        div.aft-product-list-thumb {
+            min-height: 67vw;
+        }
+    }
     
+
     width: 13.9%;
     .aft-product-list-thumb {
         min-height: 260px;
@@ -78,6 +103,13 @@
 .full-width-content .magazine-7-products-list .product:last-child{
     display: none;
 }
+
+@media (max-width: 768px){
+    #content .magazine_7_products_list_widget{
+        padding-left: 10px;
+    }
+}
+
 
 body .magazine-7-products-list ul .row{
     display:flex;

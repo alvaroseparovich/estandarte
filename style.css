@@ -85,6 +85,23 @@ body h6 {
   width: 1270px;
   max-width: 100%; }
 
+.spotlight-post, .single-column-posts, #secondary .widget, article .entry-content-wrap, article .comments-area, article .em-posts-promotions .widget {
+  background-color: rgba(255, 255, 255, 0);
+  border-top: 1px solid rgba(0, 1, 1, 0.1);
+  border: none;
+  border-radius: 0;
+  margin: 0px 0px 20px 0px;
+  position: relative; }
+
+h2.widget-title, h1.page-title, h1.entry-title, h2.section-title {
+  font-family: 'EB Garamond', serif; }
+
+body h1, body h2, body h2 span, body h3, body h4, body h5, body h6 {
+  font-family: 'EB Garamond', serif; }
+
+.hentry .header-details-wrapper {
+  background: rgba(0, 1, 1, 0); }
+
 .masthead-banner {
   padding: 5px 0; }
   .masthead-banner .row .col-md-12, .masthead-banner #primary-menu {
@@ -236,12 +253,14 @@ body .af-main-banner .slider-figcaption .slide-title {
       margin: auto; }
     .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products.columns-3 li.product .woocommerce-loop-product__title {
       min-height: 70px;
-      text-align: center; }
+      text-align: center;
+      font-family: 'Fira Sans Condensed'; }
     .woocommerce ul.products li.product .author, .woocommerce ul.products.columns-3 li.product .author {
       opacity: 0.7;
       width: fit-content;
       font-size: 0.8em;
-      margin: 0 auto 1em; }
+      margin: 0 auto 1em;
+      font-family: 'Fira Sans Condensed'; }
 
 .full-width-content .magazine-7-products-list ul .row .product {
   width: 13.9%; }
@@ -325,7 +344,8 @@ body .magazine-7-products-list ul .row {
     display: none; }
   body .magazine-7-products-list ul .row h3.woocommerce-loop-product__title {
     font-size: 1em;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Fira Sans Condensed'; }
 
 @media (min-width: 1600px) {
   .woocommerce ul.products li.product .img-box, .woocommerce ul.products.columns-3 li.product .img-box {
@@ -401,6 +421,9 @@ body .magazine-7-products-list ul .row {
   vertical-align: top;
   float: right; }
 
+.woocommerce table.shop_attributes th {
+  width: 100px; }
+
 .product-template-default ul.products li.product, .single ul.products li.product, .single-product ul.products li.product {
   width: 13.9%; }
 .product-template-default .img-box, .single .img-box, .single-product .img-box {
@@ -435,10 +458,20 @@ body .magazine-7-products-list ul .row {
   .product-template-default .site-content, .single .site-content, .single-product .site-content {
     width: 100%; } }
 
-/* .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product
- */
-/* img.woocommerce-placeholder.wp-post-image {
-    height: 232px!important;
-} */
+@media (min-width: 700px) {
+  .o_estandarte_product_info .aditional_inf {
+    display: none; } }
+@media (max-width: 700px) {
+  .o_estandarte_product_img {
+    width: 100%;
+    padding: 0 20%; }
+
+  .o_estandarte_product_img .shop_attributes, .o_estandarte_product_img h2 {
+    display: none; }
+
+  .o_estandarte_product_info {
+    width: 100%; }
+    .o_estandarte_product_info .product_title {
+      margin-bottom: 1em !important; } }
 
 /*# sourceMappingURL=style.css.map */

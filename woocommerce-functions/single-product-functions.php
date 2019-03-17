@@ -42,11 +42,15 @@ add_action( 'woocommerce_single_product_summary', 'o_estandarte_close_div', 35 )
 
 
 add_action( 'woocommerce_single_product_summary', 'woocommerce_product_description_tab', 65 );
-add_action( 'woocommerce_single_product_summary', 'comments_template', 65 );
-add_action( 'woocommerce_single_product_summary', 'woocommerce_output_product_data_tabs', 65 );
+add_action( 'woocommerce_single_product_summary', 'comments_template', 66 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_output_product_data_tabs', 66 );
 add_action( 'woocommerce_single_product_summary', 'o_estandarte_close_div', 70 );
 
-remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs' );
+//remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs' );
+function o_estandarte_product_aditional_inf_div(){createElement(1,'div','aditional_inf');}
+add_action( 'woocommerce_single_product_summary', 'o_estandarte_product_aditional_inf_div', 65 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_product_additional_information_tab', 65 );
+add_action( 'woocommerce_single_product_summary', 'o_estandarte_close_div', 65 );
 
 //End full Block | ----------
 add_action( 'woocommerce_after_single_product_summary', 'o_estandarte_product_end', 14 );

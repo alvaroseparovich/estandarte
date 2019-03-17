@@ -1,0 +1,18 @@
+.spotlight-post, .single-column-posts, #secondary .widget, article .entry-content-wrap, article .comments-area, article .em-posts-promotions .widget {
+    background-color: rgba(255, 255, 255, 0);
+    border-top: 1px solid rgba(0, 1, 1, 0.1);
+    border: none;
+    border-radius: 0;
+    margin: 0px 0px 20px 0px;
+    position: relative;
+}
+
+h2.widget-title, h1.page-title, h1.entry-title, h2.section-title{
+        font-family: 'EB Garamond', serif;
+}
+body h1, body h2, body h2 span, body h3, body h4, body h5, body h6{
+    font-family: 'EB Garamond', serif;
+}
+.hentry .header-details-wrapper{
+    background: rgba(0, 1, 1, 0);
+}

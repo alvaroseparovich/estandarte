@@ -13,11 +13,13 @@ add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_e
 
 /** Reorganizing informations 
  *==========================
-*/
+ */
 
 /**----------- Removing 
  * -----------==========
-*/
+ */
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 7 );
 
 
 /**----------- adding or reinserting 
@@ -27,13 +29,15 @@ add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_e
 function o_estandarte_close_div(){createElement(1,'/div');}
 
 
-//first Block | IMG
+//==========================   first Block | IMG  ===========================
 add_action( 'woocommerce_before_single_product_summary', 'o_estandarte_product_img', 5 );
 function o_estandarte_product_img(){createElement(1,'div','o_estandarte_product_img');}
 add_action( 'woocommerce_before_single_product_summary', 'woocommerce_product_additional_information_tab', 25 );
 add_action( 'woocommerce_before_single_product_summary', 'o_estandarte_close_div', 25 );
+
+
 //-----------------
-//Second Block | INFO
+//========================  Second Block | INFO  ============================
 add_action( 'woocommerce_before_single_product_summary', 'o_estandarte_product_info', 30 );
 function o_estandarte_product_info(){createElement(1,'div','o_estandarte_product_info');}
 add_action( 'woocommerce_single_product_summary', 'o_estandarte_product_price_div', 25 );
@@ -46,7 +50,12 @@ add_action( 'woocommerce_single_product_summary', 'comments_template', 66 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_output_product_data_tabs', 66 );
 add_action( 'woocommerce_single_product_summary', 'o_estandarte_close_div', 70 );
 
-//remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs' );
+function o_estandarte_product_price_cart_div(){createElement(1,'div','price-cart');}
+add_action( 'woocommerce_single_product_summary', 'o_estandarte_product_price_cart_div', 9 );
+add_action( 'woocommerce_single_product_summary', 'o_estandarte_close_div', 40 );
+
+
+/*=============== Second Description to sho on Mobile devices ================= */
 function o_estandarte_product_aditional_inf_div(){createElement(1,'div','aditional_inf');}
 add_action( 'woocommerce_single_product_summary', 'o_estandarte_product_aditional_inf_div', 65 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_product_additional_information_tab', 65 );

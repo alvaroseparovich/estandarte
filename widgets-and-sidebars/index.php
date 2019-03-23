@@ -1,14 +1,12 @@
 <?php
 
-require get_stylesheet_directory().'/inc/widget-base.php';
-
 require get_stylesheet_directory().'/widgets-and-sidebars/sidebars.php';
 
 require get_stylesheet_directory().'/widgets-and-sidebars/widgets/widget-base.php';
 
 require get_stylesheet_directory().'/widgets-and-sidebars/widgets/widget-post.php';
 
-require get_stylesheet_directory().'/widgets-and-sidebars/widgets/product-widget.php';
+require get_stylesheet_directory().'/widgets-and-sidebars/widgets/widget-product.php';
 
 
 function oec_widgets() {

@@ -3,7 +3,7 @@
  * Adds Magazine_7_Products_List widget.
  */
 
-class Magazine_7_Products_List extends AFthemes_Widget_Base_2
+class Magazine_7_Products_List extends Oec_Widget_Base
 {
     /**
      * Sets up a new widget instance.

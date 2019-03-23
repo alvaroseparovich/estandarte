@@ -86,8 +86,8 @@ class Estandarte_Categorised_Posts extends Oec_Widget_Base
                                         </div>
                                     </figure>
                                     <div class="figure-categories figure-categories-bg">
-                                        <?php echo magazine_7_post_format($post->ID); ?>
-                                        <?php magazine_7_post_categories(); ?>
+                                        <?php // echo magazine_7_post_format($post->ID);?>
+                                        <?php // magazine_7_post_categories();  ?>
                                     </div>
                                     <figcaption>
 

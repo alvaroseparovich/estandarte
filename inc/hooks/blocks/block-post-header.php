@@ -22,12 +22,12 @@
     ?>
     <div class="header-details-wrapper">
         <div class="entry-header-details">
-            <?php if ('post' === get_post_type()) : ?>
+            <?php /*if ('post' === get_post_type()) : ?>
                 <div class="figure-categories figure-categories-bg">
                     <?php echo magazine_7_post_format(get_the_ID()); ?>
                     <?php magazine_7_post_categories('/'); ?>
                 </div>
-            <?php endif; ?>
+            <?php endif; */?>
             <div class="head-title">
             <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
             </div>

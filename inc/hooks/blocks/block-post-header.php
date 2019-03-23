@@ -28,8 +28,8 @@
                     <?php magazine_7_post_categories('/'); ?>
                 </div>
             <?php endif; ?>
-            <div class="PEYYYY">
-            <?php the_title('<h1 class="entry-title YAAAAAAAAAAAAAAAAAAAAAAAAAAAA">', '</h1>'); ?>
+            <div class="head-title">
+            <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
             </div>
             <?php magazine_7_post_item_meta(); ?>
             <?php if ('post' === get_post_type()) : ?>

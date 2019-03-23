@@ -92,6 +92,12 @@ aside#secondary > li.widget {
 aside#secondary > li:first-child > h2 {
   margin-top: 0; }
 
+.site-info {
+  background: #171717; }
+
+.site-footer {
+  background: #383838; }
+
 .spotlight-post, .single-column-posts, #secondary .widget, article .entry-content-wrap, article .comments-area, article .em-posts-promotions .widget {
   background-color: rgba(255, 255, 255, 0);
   border-top: 1px solid rgba(0, 1, 1, 0.1);

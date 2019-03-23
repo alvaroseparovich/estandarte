@@ -8,7 +8,7 @@ class Estandarte_Categorised_Posts extends Oec_Widget_Base
      */
     function __construct()
     {
-        $this->text_fields = array('m7-categorised-posts-title', 'm7-categorised-posts-subtitle', 'm7-excerpt-length', 'm7-posts-number');
+        $this->text_fields = array('m7-categorised-posts-title', 'm7-categorised-posts-subtitle', 'm7-excerpt-length', 'm7-posts-number', 'oec_posts_number', 'oec_col_number');
         $this->select_fields = array('m7-select-category');
 
         $widget_ops = array(

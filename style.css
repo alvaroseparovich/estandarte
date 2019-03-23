@@ -117,7 +117,7 @@ body h1, body h2, body h2 span, body h3, body h4, body h5, body h6 {
   .masthead-banner .cart-search {
     margin-right: 10px; }
   .masthead-banner #primary-menu {
-    width: fit-content; }
+    /* width: fit-content; */ }
     .masthead-banner #primary-menu li {
       padding: 20px 15px; }
       .masthead-banner #primary-menu li a, .masthead-banner #primary-menu li a:visited {
@@ -144,7 +144,9 @@ body h1, body h2, body h2 span, body h3, body h4, body h5, body h6 {
   .masthead-banner .menu-right {
     width: 71%; }
     .masthead-banner .menu-right .main-menu {
-      padding-left: 12%; } }
+      padding-left: 2%; }
+  .masthead-banner div.site-branding::after {
+    display: none; } }
 @media (max-width: 991px) {
   .masthead-banner .menu-right {
     width: 74%; } }
@@ -180,8 +182,8 @@ p.site-description {
 .site-branding {
   display: flex; }
   .site-branding .other-inf .site-title {
-    font-size: 33px;
-    margin-top: 0.7em; }
+    font-size: 21px;
+    margin-top: 1.7em; }
     .site-branding .other-inf .site-title a {
       color: white; }
 
@@ -194,6 +196,14 @@ p.site-description {
   .site-header .custom-logo {
     width: 100px;
     padding: 15px; }
+
+.masthead-banner .site-branding::after {
+  display: block;
+  background: white;
+  width: 1px;
+  height: 50%;
+  margin-top: 7%;
+  margin-left: 13px; }
 
 .archive #main .row {
   display: flex;

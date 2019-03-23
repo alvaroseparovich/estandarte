@@ -27,7 +27,7 @@ $header-color-text: white;
         margin-right: 10px;
     }
     #primary-menu{
-        width: fit-content;
+        /* width: fit-content; */
         li{
             padding: 20px 15px;
             a, a:visited {
@@ -67,9 +67,10 @@ $header-color-text: white;
         .menu-right{
             width: 71%;
             .main-menu{
-                padding-left: 12%;
+                padding-left: 2%;
             }
         }
+        div.site-branding::after {display: none;}
         
     }
 } 
@@ -138,8 +139,8 @@ p.site-description {
     
     .other-inf {
         .site-title {
-            font-size: 33px;
-            margin-top: 0.7em;
+            font-size: 21px;
+            margin-top: 1.7em;
             a{
                 color:white;
             }
@@ -157,7 +158,14 @@ p.site-description {
         padding: 15px;
     }
 }
-
+.masthead-banner .site-branding::after {
+    display: block;
+    background: white;
+    width: 1px;
+    height: 50%;
+    margin-top: 7%;
+    margin-left: 13px
+}
 
 
 

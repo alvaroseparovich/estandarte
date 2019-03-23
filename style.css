@@ -474,7 +474,7 @@ body .magazine-7-products-list ul .row {
     font-family: 'EB Garamond', serif;
     font-weight: lighter;
     font-size: 2.5em;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     padding-bottom: 0; }
   .woocommerce #content div.product div.summary p.price, .woocommerce #content div.product div.summary span.price, .woocommerce #content div.product div.summary .stock, .woocommerce div.product div.summary p.price, .woocommerce div.product div.summary span.price, .woocommerce div.product div.summary .stock {
     color: black; }

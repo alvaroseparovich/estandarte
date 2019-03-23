@@ -85,6 +85,13 @@ body h6 {
   width: 1270px;
   max-width: 100%; }
 
+aside#secondary > li.widget {
+  list-style: none;
+  padding: 0; }
+
+aside#secondary > li:first-child > h2 {
+  margin-top: 0; }
+
 .spotlight-post, .single-column-posts, #secondary .widget, article .entry-content-wrap, article .comments-area, article .em-posts-promotions .widget {
   background-color: rgba(255, 255, 255, 0);
   border-top: 1px solid rgba(0, 1, 1, 0.1);
@@ -113,7 +120,7 @@ body h1, body h2, body h2 span, body h3, body h4, body h5, body h6 {
     .masthead-banner .toggle-menu .ham, .masthead-banner .toggle-menu .ham::before, .masthead-banner .toggle-menu .ham::after {
       background: white; }
     .masthead-banner .toggle-menu .ham.exit {
-      background: #222; }
+      background: #9a2121; }
   .masthead-banner .cart-search {
     margin-right: 10px; }
   .masthead-banner #primary-menu {
@@ -192,7 +199,7 @@ p.site-description {
   float: left; }
 
 .site-header {
-  background: #222; }
+  background: #9a2121; }
   .site-header .custom-logo {
     width: 100px;
     padding: 15px; }

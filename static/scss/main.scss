@@ -112,3 +112,10 @@ color: $first-color;
     width: 1270px;
     max-width: 100%;
 }
+aside#secondary>li.widget {
+    list-style: none;
+    padding: 0;
+}
+aside#secondary>li:first-child>h2{
+    margin-top: 0;
+}

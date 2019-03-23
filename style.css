@@ -75,6 +75,9 @@ body h5,
 body h6 {
   line-height: 1.2; }
 
+/* .figure-categories{
+    display: none;
+} */
 .figure-categories-bg .em-post-format:before {
   background: #96220f; }
 
@@ -223,6 +226,8 @@ p.site-description {
     display: none; } }
 #estandarte-home-section > li {
   list-style: none; }
+  #estandarte-home-section > li:first-child {
+    margin-top: 10px; }
 #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row {
   display: flex;
   flex-wrap: wrap; }
@@ -238,6 +243,29 @@ body .af-main-banner .slider-figcaption .slide-title {
 
 .slider-figcaption {
   padding: 20px 10px; }
+
+.oec_especial_post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left; }
+
+.oec_col_1 {
+  width: 100%; }
+
+.oec_col_2 {
+  width: 49.9%; }
+
+.oec_col_3 {
+  width: 33.2%; }
+
+.oec_col_4 {
+  width: 24.9%; }
+
+.oec_col_5 {
+  width: 19.9%; }
+
+.oec_col_6 {
+  width: 16.5%; }
 
 .woocommerce ul.products, .woocommerce ul.products.columns-3 {
   display: flex;

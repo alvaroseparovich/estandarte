@@ -1,6 +1,9 @@
 #estandarte-home-section{
    & > li{
     list-style: none;
+        &:first-child{
+            margin-top: 10px
+        }
     }
     
     .widget.magazine_7_double_col_categorised_posts{
@@ -27,4 +30,28 @@ body .af-main-banner .slider-figcaption .slide-title {
 }
 .slider-figcaption {
     padding: 20px 10px;
+}
+
+.oec_especial_post{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.oec_col_1{
+    width: 100%;
+}
+.oec_col_2{
+    width: 49.9%;
+}
+.oec_col_3{
+    width: 33.2%;
+}
+.oec_col_4{
+    width: 24.9%;
+}
+.oec_col_5{
+    width: 19.9%;
+}
+.oec_col_6{
+    width: 16.5%;
 }

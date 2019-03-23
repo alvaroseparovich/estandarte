@@ -246,6 +246,9 @@ body .af-main-banner .slider-figcaption .slide-title {
   flex-wrap: wrap;
   justify-content: left;
   margin: 0 10px; }
+  @media (max-width: 1199px) {
+    .oec_especial_post .oec_col_6 {
+      width: 24.9%; } }
   @media (max-width: 800px) {
     .oec_especial_post .oec_col_1, .oec_especial_post .oec_col_2, .oec_especial_post .oec_col_3, .oec_especial_post .oec_col_4, .oec_especial_post .oec_col_5, .oec_especial_post .oec_col_6 {
       width: 24.9%; }
@@ -273,17 +276,37 @@ body .af-main-banner .slider-figcaption .slide-title {
 
 .oec_col_3 {
   width: 33.2%; }
+  .oec_col_3 .spotlight-post figcaption {
+    padding: 10px 0; }
+  .oec_col_3 .article-title {
+    margin-bottom: 10px; }
 
 .oec_col_4 {
   width: 24.9%; }
   .oec_col_4 .data-bg.data-bg-hover {
     height: 200px; }
+  .oec_col_4 .spotlight-post figcaption {
+    padding: 10px 0; }
+  .oec_col_4 .article-title {
+    margin-bottom: 10px; }
 
 .oec_col_5 {
   width: 19.9%; }
+  .oec_col_5 .data-bg.data-bg-hover {
+    height: 170px; }
+  .oec_col_5 .spotlight-post figcaption {
+    padding: 10px 0; }
+  .oec_col_5 .article-title {
+    margin-bottom: 10px; }
 
 .oec_col_6 {
   width: 16.5%; }
+  .oec_col_6 .data-bg.data-bg-hover {
+    height: 130px; }
+  .oec_col_6 .spotlight-post figcaption {
+    padding: 10px 0; }
+  .oec_col_6 .article-title {
+    margin-bottom: 10px; }
 
 .woocommerce ul.products, .woocommerce ul.products.columns-3 {
   display: flex;

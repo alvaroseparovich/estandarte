@@ -38,6 +38,12 @@ body .af-main-banner .slider-figcaption .slide-title {
     justify-content: left;
     margin: 0 10px;
 
+    @media (max-width: 1199px){
+        .oec_col_6{
+            width: 24.9%;
+        }
+    }
+
     @media (max-width: 800px){
         .oec_col_1,.oec_col_2,.oec_col_3,.oec_col_4,.oec_col_5,.oec_col_6{
             width: 24.9%;
@@ -76,16 +82,24 @@ body .af-main-banner .slider-figcaption .slide-title {
 }
 .oec_col_3{
     width: 33.2%;
+    .spotlight-post figcaption{padding: 10px 0;}
+    .article-title{margin-bottom: 10px;}
 }
 .oec_col_4{
     width: 24.9%;
-    .data-bg.data-bg-hover {
-        height: 200px;
-    }
+    .data-bg.data-bg-hover {height: 200px;}
+    .spotlight-post figcaption{padding: 10px 0;}
+    .article-title{margin-bottom: 10px;}
 }
 .oec_col_5{
     width: 19.9%;
+    .data-bg.data-bg-hover {height: 170px;}
+    .spotlight-post figcaption{padding: 10px 0;}
+    .article-title{margin-bottom: 10px;}
 }
 .oec_col_6{
     width: 16.5%;
+    .data-bg.data-bg-hover {height: 130px;}
+    .spotlight-post figcaption{padding: 10px 0;}
+    .article-title{margin-bottom: 10px;}
 }

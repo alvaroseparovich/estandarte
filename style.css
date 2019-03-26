@@ -504,6 +504,11 @@ body .magazine-7-products-list ul .row {
 .full-product-page #primary {
   width: 100%; }
 
+#somdn-download-single-form .somdn-download-button, .somdn-form-table-bottom .somdn-download-button {
+  width: 100%;
+  height: 60px;
+  font-size: 1.4em; }
+
 .o_estandarte_product_img,
 .o_estandarte_product_under_img {
   width: 30%;

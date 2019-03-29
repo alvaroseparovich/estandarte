@@ -116,6 +116,9 @@ body h1, body h2, body h2 span, body h3, body h4, body h5, body h6 {
 .hentry .header-details-wrapper {
   background: rgba(0, 1, 1, 0); }
 
+.spotlight-post {
+  width: 100%; }
+
 .masthead-banner {
   padding: 5px 0; }
   .masthead-banner .row .col-md-12, .masthead-banner #primary-menu {
@@ -355,49 +358,49 @@ body .af-main-banner .slider-figcaption .slide-title {
       margin: 0 auto 1em;
       font-family: 'Fira Sans Condensed'; }
 
-.full-width-content .magazine-7-products-list ul .row .product {
+.full-width-content .magazine-7-products-list ul .row .product, .magazine-7-products-list ul .row .product {
   width: 13.9%; }
   @media (min-width: 1600px) {
-    .full-width-content .magazine-7-products-list ul .row .product div div.aft-product-list-thumb {
+    .full-width-content .magazine-7-products-list ul .row .product div div.aft-product-list-thumb, .magazine-7-products-list ul .row .product div div.aft-product-list-thumb {
       min-height: 275px; } }
   @media (max-width: 1600px) {
-    .full-width-content .magazine-7-products-list ul .row .product {
+    .full-width-content .magazine-7-products-list ul .row .product, .magazine-7-products-list ul .row .product {
       padding: 0; }
-      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
+      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb, .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
         min-height: 205px; } }
   @media (max-width: 1200px) {
-    .full-width-content .magazine-7-products-list ul .row .product {
+    .full-width-content .magazine-7-products-list ul .row .product, .magazine-7-products-list ul .row .product {
       padding: 0;
       width: 13.9%; }
-      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
+      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb, .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
         min-height: 180px; } }
   @media (max-width: 992px) {
-    .full-width-content .magazine-7-products-list ul .row .product {
+    .full-width-content .magazine-7-products-list ul .row .product, .magazine-7-products-list ul .row .product {
       padding: 0;
       width: 24.9%; }
-      .full-width-content .magazine-7-products-list ul .row .product:last-child {
+      .full-width-content .magazine-7-products-list ul .row .product:last-child, .magazine-7-products-list ul .row .product:last-child {
         display: block; }
-      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
+      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb, .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
         min-height: 260px; } }
   @media (max-width: 768px) {
-    .full-width-content .magazine-7-products-list ul .row .product {
+    .full-width-content .magazine-7-products-list ul .row .product, .magazine-7-products-list ul .row .product {
       padding: 0;
       width: 24.9%; }
-      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
+      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb, .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
         min-height: 33vw; } }
   @media (max-width: 540px) {
-    .full-width-content .magazine-7-products-list ul .row .product {
+    .full-width-content .magazine-7-products-list ul .row .product, .magazine-7-products-list ul .row .product {
       padding: 0;
       width: 33.2%; }
-      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
+      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb, .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
         min-height: 48vw; } }
   @media (max-width: 340px) {
-    .full-width-content .magazine-7-products-list ul .row .product {
+    .full-width-content .magazine-7-products-list ul .row .product, .magazine-7-products-list ul .row .product {
       padding: 0;
       width: 49.9%; }
-      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
+      .full-width-content .magazine-7-products-list ul .row .product div.aft-product-list-thumb, .magazine-7-products-list ul .row .product div.aft-product-list-thumb {
         min-height: 67vw; } }
-  .full-width-content .magazine-7-products-list ul .row .product .aft-product-list-thumb {
+  .full-width-content .magazine-7-products-list ul .row .product .aft-product-list-thumb, .magazine-7-products-list ul .row .product .aft-product-list-thumb {
     min-height: 260px; }
 
 .full-width-content .magazine-7-products-list .product:last-child {

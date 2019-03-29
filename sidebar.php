@@ -39,33 +39,29 @@ if ($page_layout == 'full-width-content') {
     return;
 }
 
-if(is_shop()){
-    open_aside();
-    dynamic_sidebar( 'shop-sidebar' ); 
+if(is_shop()){open_aside();
+    dynamic_sidebar(            'shop-sidebar' ); 
     close_aside();
-}elseif (is_product_category()) {
-    open_aside();
-    dynamic_sidebar( 'product-category-sidebar' ); 
+}elseif (is_product_category()) {open_aside();
+    dynamic_sidebar(            'product-category-sidebar' ); 
     close_aside();
-}elseif (is_product_tag()) {
-    open_aside();
-    dynamic_sidebar( 'product-tag-sidebar' ); 
+}elseif (is_product_tag()) {open_aside();
+    dynamic_sidebar(            'product-tag-sidebar' ); 
     close_aside();
-}elseif (is_cart()) {
-    open_aside();
-    dynamic_sidebar( 'cart-sidebar' ); 
+}elseif (is_cart()) {open_aside();
+    dynamic_sidebar(            'cart-sidebar' ); 
     close_aside();
-}elseif (is_checkout()) {
-    open_aside();
-    dynamic_sidebar( 'checkout-sidebar' ); 
+}elseif (is_checkout()) {open_aside();
+    dynamic_sidebar(            'checkout-sidebar' ); 
     close_aside();
-}elseif (is_account_page()) {
-    open_aside();
-    dynamic_sidebar( 'account-sidebar' ); 
+}elseif (is_account_page()) {open_aside();
+    dynamic_sidebar(            'account-sidebar' ); 
     close_aside();
-}else{
-    open_aside();
-    dynamic_sidebar( 'sidebar-1' ); 
+}elseif (is_home()) {open_aside();
+    dynamic_sidebar(            'blog-sidebar' ); 
+    close_aside();
+}else{open_aside();
+    dynamic_sidebar(            'sidebar-1' ); 
     close_aside();
 }
 

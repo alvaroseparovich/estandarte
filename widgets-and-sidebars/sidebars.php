@@ -58,3 +58,10 @@ register_sidebar( $args = array(
 	'class'         => 'shop-sidebar'
 	)
  );
+ register_sidebar( $args = array(
+	'name'          => "Pagina do Blog",
+	'id'            => "blog-sidebar",
+	'description'   => 'Sidebar do blog',
+	'class'         => 'blog-sidebar'
+	)
+ );

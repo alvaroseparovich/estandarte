@@ -8,6 +8,8 @@ require get_stylesheet_directory().'/widgets-and-sidebars/widgets/widget-post.ph
 
 require get_stylesheet_directory().'/widgets-and-sidebars/widgets/widget-product.php';
 
+require get_stylesheet_directory().'/widgets-and-sidebars/widgets/widget-search-downloadable.php';
+
 
 function oec_widgets() {
 

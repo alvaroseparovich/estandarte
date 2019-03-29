@@ -128,17 +128,13 @@
                     <?php $m7_copy_right = magazine_7_get_option('footer_copyright_text'); ?>
                     <?php if (!empty($m7_copy_right)): ?>
                     <?php endif; ?>
-                        Copyright © Todos os direitos reservados. | O estandarte de Cristo 
+                        Copyright © Todos os direitos reservados. | O estandarte de Cristo <span style="right:15px;position:absolute;opacity:0.1;"> Desenvolvido por Alvaro Sep.</span>
                 </div>
-            </div><span style="right:15px;position:absolute;opacity:0.4;"> Desenvolvido por Alvaro Sep.</span>
+            </div>
         </div>
     </div>
 </footer>
 </div>
-<a id="scroll-up" class="secondary-color">
-    <i class="fa fa-angle-up"></i>
-</a>
 <?php wp_footer(); ?>
-
 </body>
 </html>

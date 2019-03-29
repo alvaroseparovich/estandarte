@@ -41,7 +41,7 @@ class Magazine_7_Products_List extends Oec_Widget_Base
         $title = apply_filters('widget_title', $instance['m7-posts-slider-title'], $instance, $this->id_base);
         $subtitle = isset($instance['m7-posts-slider-subtitle']) ? $instance['m7-posts-slider-subtitle'] : '';
         $category = isset($instance['m7-select-category']) ? $instance['m7-select-category'] : '0';
-        $number_of_posts = 8;
+        $number_of_posts = 7;
         $all_products = magazine_7_get_products($number_of_posts, $category, '');
 
 

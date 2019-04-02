@@ -41,7 +41,7 @@ add_filter( 'woocommerce_get_price_html', 'bbloomer_price_free_zero_empty', 100,
 function bbloomer_price_free_zero_empty( $price, $product ){
  
 if ( '' === $product->get_price() || 0 == $product->get_price() ) {
-    $price = '<span class="woocommerce-Price-amount amount">-</span>';
+    $price = '';
 } 
  
 return $price;

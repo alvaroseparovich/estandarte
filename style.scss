@@ -25,3 +25,11 @@ $first-color: #96220f;
 @import './static/scss/home-page.scss';
 @import './static/scss/woocommerce/product-loop.scss';
 @import './static/scss/woocommerce/product-page.scss';
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}

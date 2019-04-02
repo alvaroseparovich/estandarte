@@ -325,6 +325,9 @@ body .af-main-banner .slider-figcaption .slide-title {
   .oec_col_6 .article-title {
     margin-bottom: 10px; }
 
+.slideText {
+  display: none; }
+
 .woocommerce ul.products, .woocommerce ul.products.columns-3 {
   display: flex;
   flex-wrap: wrap;
@@ -595,5 +598,11 @@ body .magazine-7-products-list ul .row {
     width: 100%; }
     .o_estandarte_product_info .product_title {
       margin-bottom: 1em !important; } }
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
 
 /*# sourceMappingURL=style.css.map */

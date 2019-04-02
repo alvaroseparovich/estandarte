@@ -27,3 +27,22 @@ require get_stylesheet_directory().'/woocommerce-functions/index.php';
 require get_stylesheet_directory().'/inc/index.php';
 
 
+/**
+* @snippet       Display &quot;FREE&quot; if WooCommerce Product Price is Zero or Empty - WooCommerce
+* @how-to        Watch tutorial @ https://businessbloomer.com/?p=19055
+* @sourcecode    https://businessbloomer.com/?p=73147
+* @author        Rodolfo Melogli
+* @testedwith    WooCommerce 3.5.3
+* @donate $9     https://businessbloomer.com/bloomer-armada/
+*/
+ 
+add_filter( 'woocommerce_get_price_html', 'bbloomer_price_free_zero_empty', 100, 2 );
+  
+function bbloomer_price_free_zero_empty( $price, $product ){
+ 
+if ( '' === $product->get_price() || 0 == $product->get_price() ) {
+    $price = '<span class="woocommerce-Price-amount amount">-</span>';
+} 
+ 
+return $price;
+}

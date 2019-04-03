@@ -328,6 +328,9 @@ body .af-main-banner .slider-figcaption .slide-title {
 .slideText {
   display: none; }
 
+.metaslider.ms-theme-outline .flexslider ul.flex-direction-nav li a.flex-next, .metaslider.ms-theme-outline .flexslider ul.flex-direction-nav li a.flex-prev {
+  border: none; }
+
 .woocommerce ul.products, .woocommerce ul.products.columns-3 {
   display: flex;
   flex-wrap: wrap;

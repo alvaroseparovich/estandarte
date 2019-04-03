@@ -107,3 +107,9 @@ body .af-main-banner .slider-figcaption .slide-title {
 .slideText {
     display: none;
 }
+
+.metaslider.ms-theme-outline .flexslider ul.flex-direction-nav li {
+    a.flex-next,a.flex-prev{
+    border:none;
+    }
+}

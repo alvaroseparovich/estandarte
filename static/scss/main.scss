@@ -137,3 +137,6 @@ background: #171717;
 }
 .woocommerce form .form-row-first, .woocommerce-page form .form-row-first {
     clear: both; }
+.woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before{
+    position: initial;
+}

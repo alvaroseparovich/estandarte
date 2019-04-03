@@ -125,3 +125,15 @@ background: #171717;
 .site-footer{
     background: #383838;
 }
+.alv-footer{
+    right:15px;
+    position:absolute;
+    opacity:0.1;
+    @media (max-width:999px){
+        &{
+            display: none;
+        }
+    }
+}
+.woocommerce form .form-row-first, .woocommerce-page form .form-row-first {
+    clear: both; }

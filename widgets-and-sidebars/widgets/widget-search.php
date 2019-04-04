@@ -28,8 +28,8 @@ if ( ! class_exists( 'Online_Shop_Advanced_Search_Widget' ) ) :
 
 		/*defaults values for fields*/
 		private $defaults = array(
-			'online_shop_search_placeholder'  => '',
-			'es_search'  => ''
+			'online_shop_search_placeholder'  => 'Procurar',
+			'es_search'  => 'pa_e'
 		);
 
 		public function form( $instance ) {
@@ -119,6 +119,9 @@ if ( ! class_exists( 'Online_Shop_Advanced_Search_Widget' ) ) :
 				button#estandarte-search-btn {
 					line-height: 1.7;
 					width: 30%;
+				}
+				select#estandart-select {
+					width: 100%;
 				}
 				</style>
 

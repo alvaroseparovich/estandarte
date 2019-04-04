@@ -39,10 +39,7 @@ require get_stylesheet_directory().'/inc/index.php';
 add_filter( 'woocommerce_get_price_html', 'bbloomer_price_free_zero_empty', 100, 2 );
   
 function bbloomer_price_free_zero_empty( $price, $product ){
- 
-if ( '' === $product->get_price() || 0 == $product->get_price() ) {
-    $price = '';
-} 
- 
-return $price;
+    if ( '' === $product->get_price() || 0 == $product->get_price() ) 
+    { $price = '';} 
+    return $price;
 }

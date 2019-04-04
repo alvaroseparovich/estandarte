@@ -65,3 +65,17 @@ register_sidebar( $args = array(
 	'class'         => 'blog-sidebar'
 	)
  );
+ register_sidebar( $args = array(
+	'name'          => "Taxonomia de produto",
+	'id'            => "product-taxonomy-sidebar",
+	'description'   => 'Sidebar de taxonomia de produto',
+	'class'         => 'product-taxonomy-sidebar'
+	)
+ );
+ register_sidebar( $args = array(
+	'name'          => "Página shop",
+	'id'            => "shop-sidebar",
+	'description'   => 'Sidebar do shop',
+	'class'         => 'shop-sidebar'
+	)
+ );

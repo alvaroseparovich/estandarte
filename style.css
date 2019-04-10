@@ -122,10 +122,10 @@ aside#secondary > li:first-child > h2 {
   position: relative; }
 
 h2.widget-title, h1.page-title, h1.entry-title, h2.section-title {
-  font-family: 'EB Garamond', serif; }
+  font-family: 'Merriweather', serif; }
 
 body h1, body h2, body h2 span, body h3, body h4, body h5, body h6 {
-  font-family: 'EB Garamond', serif; }
+  font-family: 'Merriweather', serif; }
 
 .hentry .header-details-wrapper {
   background: rgba(0, 1, 1, 0); }

@@ -1,0 +1,36 @@
+body #page {
+
+    article.archive-layout-grid, article.post{
+        width: 33%;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    @media (max-width:670px) {
+        article.archive-layout-grid, article.post{
+            width: 49%;
+        }
+    }
+    @media (max-width:390px) {
+        article.archive-layout-grid, article.post{
+            width: 100%;
+        }
+    }
+}
+
+body.single.single-post #page {
+    
+    article.archive-layout-grid, article.post{
+        width: 100%;
+    }
+    @media (max-width:670px) {
+        article.archive-layout-grid, article.post{
+            width: 100%;
+        }
+    }
+    @media (max-width:390px) {
+        article.archive-layout-grid, article.post{
+            width: 100%;
+        }
+    }
+
+}

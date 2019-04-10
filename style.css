@@ -131,7 +131,8 @@ body h1, body h2, body h2 span, body h3, body h4, body h5, body h6 {
   background: rgba(0, 1, 1, 0); }
 
 .spotlight-post {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 0; }
 
 .masthead-banner {
   padding: 5px 0; }
@@ -252,10 +253,28 @@ p.site-description {
 @media (max-width: 460px) {
   .other-inf {
     display: none; } }
+body #page article.archive-layout-grid, body #page article.post {
+  width: 33%;
+  display: inline-block;
+  margin-bottom: 5px; }
+@media (max-width: 670px) {
+  body #page article.archive-layout-grid, body #page article.post {
+    width: 49%; } }
+@media (max-width: 390px) {
+  body #page article.archive-layout-grid, body #page article.post {
+    width: 100%; } }
+
+body.single.single-post #page article.archive-layout-grid, body.single.single-post #page article.post {
+  width: 100%; }
+@media (max-width: 670px) {
+  body.single.single-post #page article.archive-layout-grid, body.single.single-post #page article.post {
+    width: 100%; } }
+@media (max-width: 390px) {
+  body.single.single-post #page article.archive-layout-grid, body.single.single-post #page article.post {
+    width: 100%; } }
+
 #estandarte-home-section > li {
   list-style: none; }
-  #estandarte-home-section > li:first-child {
-    margin-top: 10px; }
 #estandarte-home-section .widget.magazine_7_double_col_categorised_posts .row {
   display: flex;
   flex-wrap: wrap; }

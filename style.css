@@ -134,6 +134,12 @@ body h1, body h2, body h2 span, body h3, body h4, body h5, body h6 {
   width: 100%;
   margin-bottom: 0; }
 
+span.item-metadata.posts-date {
+  margin-left: 3px; }
+
+.item-metadata.posts-author {
+  margin-right: 10px; }
+
 .masthead-banner {
   padding: 5px 0; }
   .masthead-banner .row .col-md-12, .masthead-banner #primary-menu {

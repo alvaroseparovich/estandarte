@@ -13,7 +13,7 @@ function magazine_7_post_item_meta()
         <a href="<?php echo esc_url(get_author_posts_url($author_id)) ?>">
             <?php echo esc_html(get_the_author_meta('display_name', $author_id)); ?>
         </a>
-    </span>
+    </span>|
 
 
         <span class="item-metadata posts-date">

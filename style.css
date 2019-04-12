@@ -140,6 +140,38 @@ span.item-metadata.posts-date {
 .item-metadata.posts-author {
   margin-right: 10px; }
 
+body .woocommerce .woocommerce-billing-fields__field-wrapper .form-row label, body .woocommerce .woocommerce-shipping-fields__field-wrapper .form-row label {
+  display: none; }
+
+.woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+  width: 49%;
+  overflow: visible; }
+
+.woocommerce form .form-row {
+  padding: 2px; }
+  .woocommerce form .form-row input.input-text {
+    margin: 0px !important; }
+
+.woocommerce input[type="text"], .woocommerce input[type="email"], .woocommerce input[type="url"], .woocommerce input[type="password"], .woocommerce input[type="search"], .woocommerce input[type="number"], .woocommerce input[type="tel"], .woocommerce input[type="range"], .woocommerce input[type="date"], .woocommerce input[type="month"], .woocommerce input[type="week"], .woocommerce input[type="time"], .woocommerce input[type="datetime"], .woocommerce input[type="datetime-local"], .woocommerce input[type="color"], .woocommerce textarea, .woocommerce .form-control, .woocommerce .single-post article label input[type="password"], .woocommerce .product-tools table.variations .form-select select, .woocommerce .woocommerce-cart #calc_shipping_state, .woocommerce .woocommerce-checkout #calc_shipping_state, .woocommerce #billing_first_name, .woocommerce #shipping_first_name, .woocommerce #billing_last_name, .woocommerce #shipping_last_name, .woocommerce #billing_email, .woocommerce #shipping_email, .woocommerce #billing_phone, .woocommerce #shipping_phone, .woocommerce #billing_address_1, .woocommerce #shipping_address_1, .woocommerce #billing_address_2, .woocommerce #shipping_address_2, .woocommerce #billing_company, .woocommerce #shipping_company, .woocommerce input#billing_state, .woocommerce input#shipping_state, .woocommerce #billing_postcode, .woocommerce #shipping_postcode, .woocommerce #billing_city, .woocommerce #shipping_city, .woocommerce #order_comments, .woocommerce #account_username, .woocommerce #account_password, .woocommerce #account_password-2 {
+  border-radius: 0;
+  border: 0; }
+.woocommerce .select2-container--default .select2-selection--single {
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 1px; }
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+  border: 0;
+  border-radius: 0; }
+
+#add_payment_method table.cart img, .woocommerce-cart table.cart img, .woocommerce-checkout table.cart img {
+  width: 113px; }
+
+.woocommerce table.shop_table {
+  border: 0;
+  border-radius: 0; }
+
 .masthead-banner {
   padding: 5px 0; }
   .masthead-banner .row .col-md-12, .masthead-banner #primary-menu {
@@ -372,8 +404,7 @@ body .af-main-banner .slider-figcaption .slide-title {
 
 .woocommerce ul.products, .woocommerce ul.products.columns-3 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
+  flex-wrap: wrap; }
   .woocommerce ul.products li.product, .woocommerce ul.products.columns-3 li.product {
     width: 19.9%;
     margin: 0 !important;
@@ -526,11 +557,9 @@ body .magazine-7-products-list ul .row {
 .woocommerce #content div.product div.summary, .woocommerce div.product div.summary {
   width: 100%; }
   .woocommerce #content div.product div.summary h1.product_title, .woocommerce div.product div.summary h1.product_title {
-    font-family: 'EB Garamond', serif;
     font-weight: lighter;
     font-size: 2.5em;
-    margin-bottom: 5px;
-    padding-bottom: 0; }
+    margin-bottom: 5px; }
   .woocommerce #content div.product div.summary p.price, .woocommerce #content div.product div.summary span.price, .woocommerce #content div.product div.summary .stock, .woocommerce div.product div.summary p.price, .woocommerce div.product div.summary span.price, .woocommerce div.product div.summary .stock {
     color: black; }
   .woocommerce #content div.product div.summary p.price, .woocommerce #content div.product div.summary .o_estandarte_cart, .woocommerce div.product div.summary p.price, .woocommerce div.product div.summary .o_estandarte_cart {

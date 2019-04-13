@@ -630,7 +630,7 @@ body .magazine-7-products-list ul .row {
     height: inherit; } }
 @media (max-width: 992px) {
   .product-template-default ul.products li.product div.img-box, .single ul.products li.product div.img-box, .single-product ul.products li.product div.img-box {
-    min-height: 232px;
+    /* min-height: 232px; */
     height: inherit; }
   .product-template-default ul.products li.product, .single ul.products li.product, .single-product ul.products li.product {
     width: 19.9%; }
@@ -644,6 +644,9 @@ body .magazine-7-products-list ul .row {
   .product-template-default .img-box, .single .img-box, .single-product .img-box {
     min-height: 232px;
     height: inherit; } }
+@media (max-width: 450px) {
+  .product-template-default ul.products[class*=columns-] li.product, .single ul.products[class*=columns-] li.product, .single-product ul.products[class*=columns-] li.product {
+    width: 49.9%; } }
 @media (min-width: 1200px) {
   .product-template-default .site-content, .single .site-content, .single-product .site-content {
     width: 1200px; } }

@@ -109,7 +109,7 @@
 
     @media (max-width: 1200px){ ul.products li.product div.img-box { min-height: 19vw; height: inherit;} }
     @media (max-width: 992px){  ul.products li.product div.img-box { 
-        min-height: 232px; height: inherit;
+        /* min-height: 232px; */ height: inherit;
     } 
         ul.products li.product{
             width: 19.9%;
@@ -126,6 +126,10 @@
             }
         }
         .img-box { min-height: 232px; height: inherit;} 
+    }
+    @media (max-width: 450px){  
+        ul.products[class*=columns-] li.product{
+            width: 49.9%;}
     }
 
     @media (min-width: 1200px){ .site-content { width: 1200px; }}

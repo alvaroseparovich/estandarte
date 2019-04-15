@@ -39,11 +39,11 @@ if ( ! class_exists( 'Online_Shop_Advanced_Search_Widget' ) ) :
 			$es_search = esc_attr( $instance['es_search'] );
 			?>
 			<p>
-				<label for="<?php echo esc_attr( $this->get_field_id( 'online_shop_search_placeholder' ) ); ?>"><?php esc_html_e( 'Placeholder Text', 'online-shop' ); ?></label>
+				<label for="<?php echo esc_attr( $this->get_field_id( 'online_shop_search_placeholder' ) ); ?>"><?php esc_html_e( 'Placeholder Text', 'estandarte' ); ?></label>
 				<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'online_shop_search_placeholder' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'online_shop_search_placeholder' ) ); ?>" type="text" value="<?php echo esc_attr( $online_shop_search_placeholder ); ?>" />
 			</p>
 			<p>
-				<label for="<?php echo esc_attr( $this->get_field_id( 'es_search' ) ); ?>"><?php esc_html_e( 'query', 'online-shop' ); ?></label>
+				<label for="<?php echo esc_attr( $this->get_field_id( 'es_search' ) ); ?>"><?php esc_html_e( 'query', 'estandarte' ); ?></label>
 				<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'es_search' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'es_search' ) ); ?>" type="text" value="<?php echo esc_attr( $es_search ); ?>" />
 			</p>
 			<?php
@@ -100,7 +100,7 @@ if ( ! class_exists( 'Online_Shop_Advanced_Search_Widget' ) ) :
                     <?php 
                         $current = ( isset( $_GET[$es_search] ) ) ? absint( $_GET[$es_search] ) : '' ; ?>
                             <select id="estandart-select" class="select_products" name="<?php echo esc_attr( $es_search ); ?>">
-                                <option value=""><?php esc_html_e( 'Livros e Ebooks', 'online-shop' ); ?></option>
+                                <option value=""><?php esc_html_e( 'Livros e Ebooks', 'estandarte' ); ?></option>
                                 <?php foreach ( $terms as $cat ) : ?>
                                     <option value="<?php echo esc_attr( $cat->slug ); ?>" <?php selected( $current, $cat->slug ); ?> ><?php echo esc_attr( $cat->name ); ?></option>
                                 <?php endforeach; ?>

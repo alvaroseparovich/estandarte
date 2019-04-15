@@ -34,7 +34,7 @@ if ( 1 == $enable_preloader ):
 <?php endif; ?>
 
 <div id="page" class="site">
-    <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'magazine-7'); ?></a>
+    <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'estandarte'); ?></a>
 
 <?php
     require get_stylesheet_directory().'/page-templates/template_header.php';

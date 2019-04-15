@@ -153,7 +153,7 @@ endif;
 
 
                         <span class="toggle-menu" aria-controls="primary-menu" aria-expanded="false">
-                            <span class="screen-reader-text"><?php esc_html_e('Primary Menu', 'magazine-7'); ?></span>
+                            <span class="screen-reader-text"><?php esc_html_e('Primary Menu', 'estandarte'); ?></span>
                             <i class="ham"></i>
                         </span>
 

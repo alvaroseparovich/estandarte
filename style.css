@@ -172,6 +172,14 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
   border: 0;
   border-radius: 0; }
 
+.emaillist .es-field-wrap {
+  font-size: 0; }
+
+.emaillist input[type="submit"] {
+  border: 0;
+  border-radius: 0;
+  margin: auto; }
+
 .masthead-banner {
   padding: 5px 0; }
   .masthead-banner .row .col-md-12, .masthead-banner #primary-menu {

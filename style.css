@@ -86,7 +86,7 @@ body h6 {
   width: 1270px;
   max-width: 100%; }
 
-aside#secondary > li.widget {
+aside#secondary > li.widget, #page .widget {
   list-style: none;
   padding: 0; }
 

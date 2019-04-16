@@ -79,3 +79,10 @@ register_sidebar( $args = array(
 	'class'         => 'shop-sidebar'
 	)
  );
+ register_sidebar( $args = array(
+	'name'          => "home banner",
+	'id'            => "home-banner",
+	'description'   => 'banner on homepage',
+	'class'         => 'home-banner-sidebar'
+	)
+ );

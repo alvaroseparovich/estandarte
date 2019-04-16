@@ -38,6 +38,11 @@ if ( 1 == $enable_preloader ):
 
 <?php
     require get_stylesheet_directory().'/page-templates/template_header.php';
+    if(is_front_page()){
+        ?><div id="ban"><?php
+        dynamic_sidebar( 'home-banner' );
+        ?></div><?php
+    }
 ?>
 
 
